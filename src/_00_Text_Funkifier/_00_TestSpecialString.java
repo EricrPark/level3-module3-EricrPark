@@ -29,7 +29,7 @@ public class _00_TestSpecialString {
 	public void testMixedCapsString() {
 		SpecialString mcs = new MixedCapsString("This is also a test");
 		System.out.println(mcs);
-		assertEquals("tHiS Is aLsO A TeSt", mcs.toString());
+		assertEquals("", mcs.toString());
 	}
 	
 	//4. Create your own class that extends SpecialString.
